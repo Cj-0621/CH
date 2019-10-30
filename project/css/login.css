@@ -1,0 +1,97 @@
+@media screen and (min-width: 992px) {
+    .my_header_h{
+        height: 220px;
+    }
+    .my_footer_h{
+        height: 280px ;
+    }
+}
+@media screen and (max-width: 992px) {
+    .my_header_h{
+        height: 220px;
+    }
+    .my_footer_h{
+        height:300px ;
+    }
+}
+.main{
+    width:100%;height: 778px;
+    margin-top: 50px;
+}
+.my-main{
+    width: 990px;height: 778px;
+    background-color:#fff;
+    margin: 0 auto;
+    padding: 1px 0 60px;
+}
+.nl_title{
+    height: 43px;
+    line-height: 43px;
+    font-size: 22px;
+    color:#333;
+    text-align: center;
+    margin: 40px auto;
+}
+.nl_t_left{
+    background: url(../../image/nl_title_left.png)center no-repeat;
+    display: inline-block;
+    width: 91px;height: 9px;
+    margin-top: 17px;
+    vertical-align:top;
+    margin-right: 20px;
+}
+.nl_t_right{background: url(../../image/nl_title_right.png)center no-repeat;
+    display:inline-block;
+    vertical-align: top;
+    width: 91px;height: 9px;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+.nl_dsf_w1 a{display:inline-block;
+    vertical-align: top;
+    width: 108px;height:108px;
+    margin: 0 25px;
+    line-height: 44px;
+    font-size: 25px;
+}
+a:hover{
+    text-decoration: none;
+}
+.nl_dsf_w1>.a1{
+    background: url(../../image/QQ-login.png)no-repeat;
+}
+.nl_dsf_w1>.a1:hover{
+    background: url(../../image/QQ-login-hover.png)no-repeat;
+}
+.nl_dsf_w1>.a2{
+    background: url(../../image/wb-login.png)no-repeat;
+}
+.nl_dsf_w1>.a2:hover{
+    background: url(../../image/wb-login-hover.png)no-repeat;
+}
+.nl_dsf_w1>.a3{
+    background: url(../../image/wx-login.png)no-repeat;
+}
+.nl_dsf_w1>.a3:hover{
+    background: url(../../image/wx-login-hover.png)no-repeat;
+}
+.nl_or{
+    height: 69px;
+    background: url(../../image/nl_or.png)center no-repeat;
+}
+.nl_loginbox_w{
+    width: 320px;
+    margin: 24px auto 0;
+    overflow: hidden;text-align: left;
+    font-size: 12px;
+}
+.nl_loginitem{
+    width:320px;height: 44px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.nl_loginitem label input{
+    margin-top: -2px;
+}
+
+
